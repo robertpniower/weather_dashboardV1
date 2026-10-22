@@ -1,0 +1,46 @@
+# --- Dependencies ---
+/node_modules
+/frontend/node_modules
+/.pnp
+.pnp.js
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Build & Output (Next.js & Node) ---
+/.next/
+/frontend/.next/
+/out/
+/dist/
+/build/
+
+# --- Logs & Debug ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# --- IDE & Editor Specifics ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# --- OS Generated Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
